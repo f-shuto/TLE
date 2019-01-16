@@ -1,10 +1,11 @@
-@snap[west text-25 text-bold]
+@snap[west text-20 text-bold]
 DP（動的計画法）
 @snapend
-<br>
 @snap[west text-12]
-TLE から始まる恋もある
+の入り口の入り口
 @snapend
+<br>
+TLE から始まる恋もある
 
 ---
 
@@ -15,7 +16,7 @@ TLE から始まる恋もある
 - 今年の正月太り： 3.5kg
 - 趣味：
   - 酒（店飲み）、歌
-  - @css[text-red fragment](最近 AtCoder で競技プログラミング はじめました)
+  - @css[text-blue fragment](最近 AtCoder で競技プログラミング はじめました)
   -
 
 ---
