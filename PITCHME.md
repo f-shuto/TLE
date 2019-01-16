@@ -1,8 +1,9 @@
-@snap[text-18 text-bold]
+@snap[text-20 text-bold]
 DP（動的計画法）
 @snapend
 @snap[text-10]
 の入り口の入り口
+<br>
 <br>
 ～ TLE から始まる恋もある～
 @snapend
