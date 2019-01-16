@@ -1,5 +1,9 @@
-@snap[west text-25 text-bold text-white]
-DP（動的計画法）<br>TLE から始まる恋もある
+@snap[west text-25 text-bold]
+DP（動的計画法）
+@snapend
+<br>
+@snap[west text-12]
+TLE から始まる恋もある
 @snapend
 
 ---
@@ -11,8 +15,8 @@ DP（動的計画法）<br>TLE から始まる恋もある
 - 今年の正月太り： 3.5kg
 - 趣味：
   - 酒（店飲み）、歌
-  - @css[text-blue fragment](Hello, World!)
-  - 最近 AtCoder で競技プログラミング はじめました
+  - @css[text-red fragment](最近 AtCoder で競技プログラミング はじめました)
+  -
 
 ---
 
