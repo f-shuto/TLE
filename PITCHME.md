@@ -1,7 +1,11 @@
-@size[x-large](DP（動的計画法）)
-@size[small](の入り口の入り口)
+@size[text-20 text-bold]
+DP（動的計画法）
+@snapend
+@snap[text-12]
+の入り口の入り口
+@snapend
 <br>
-@size[small](TLE から始まる恋もある)
+TLE から始まる恋もある
 
 ---
 
