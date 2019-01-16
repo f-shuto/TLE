@@ -87,42 +87,13 @@ Ruby でやってみた
 
 @snap[west]
 
-# DP バージョン
-
-n = gets.to_i
-
-# 途中結果を格納するための配列を用意
-
-fib = Array.new(n)
-fib[0] = 0
-fib[1] = 1
-
-# 2 以上の場合
-
-for i in 2..n do
-fib[i] = fib[i - 2] + fib[i - 1]
-end
-
-puts fib[n]
+---?code=assets/fib_rec.rb&lang=ruby
 
 @snapend
 
 @snap[east]
 
-# 再帰バージョン
-
-n = gets.to_i
-
-def fib(n)
-return 0 if n == 0
-return 1 if n == 1
-
-# 2 以上の場合
-
-return fib(n - 2) + fib(n - 1)
-end
-
-puts fib(n)
+あああ
 
 @snapend
 
@@ -132,18 +103,20 @@ puts fib(n)
 
 ![Logo](assets/aaa.png)
 
-- DP は線形的に処理時間が増加
-- 再起は指数的に処理時間が増加
+- 再起は@css[text-blue](指数的)に処理時間が増加
+- DP は@css[text-blue](線形的)に処理時間が増加
 
 ---
 
-## おまけ：動的計画法の資料
+### おまけ 1：動的計画法の資料
 
 - https://qiita.com/drken/items/a5e6fe22863b7992efdb
 - https://www.slideshare.net/iwiwi/ss-3578511
 - https://www.slideshare.net/chokudai/wap-atcoder3
 
-## おまけ：問題解きたい人
+---
+
+### おまけ 2：問題解きたい人
 
 - https://atcoder.jp/contests/dp
 - https://atcoder.jp/contests/atc001
