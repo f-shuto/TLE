@@ -88,8 +88,6 @@ DP（動的計画法）
 @snap[north-west span-50]
 ![rec](assets/rec.png)
 
-<br>
-
 @size[0.5em](
 - 普通の再帰
 - n項のフィボナッチ数列を計算するときは、n未満のフィボナッチ数列をすべて計算。
