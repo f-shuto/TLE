@@ -86,27 +86,21 @@ DP（動的計画法）
 ---
 
 @snap[north-west span-50]
-
 ![rec](assets/rec.png)
-
-@snapend
 
 <br>
 
-@snap[south-west text-10 span-50]
 - 普通の再帰
 - n項のフィボナッチ数列を計算するときは、n未満のフィボナッチ数列をすべて計算。
   - しかもそれが再帰。。
-@snapend
 
+@snapend
 
 @snap[north-east span-50]
-
 ![dp](assets/dp.png)
-
 @snapend
 
-<br>
+
 
 @snap[south-east text-10 span-50]
 - n項までのフィボナッチ数列を格納するための配列を用意
