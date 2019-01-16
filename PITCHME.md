@@ -16,8 +16,8 @@ DP（動的計画法）
 
 - 今年の正月太り： 3.5kg
 - 趣味：
-  - 酒（店飲み）、歌
-  - @css[text-blue fragment](最近 AtCoder で競技プログラミング はじめました)
+  - 酒、歌
+  - @css[text-red fragment](最近 AtCoder で競技プログラミング はじめました)
   -
 
 ---
