@@ -1,4 +1,4 @@
-@size[text-20 text-bold]
+@snap[text-20 text-bold]
 DP（動的計画法）
 @snapend
 @snap[text-12]
