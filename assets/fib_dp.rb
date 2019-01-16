@@ -11,4 +11,11 @@ for i in 2..n do
   fib[i] = fib[i - 2] + fib[i - 1]
 end
 
-puts fib[n]
+require 'benchmark'
+result = Benchmark.realtime do
+
+  puts fib[n]
+
+end
+
+puts "#{result}s"

@@ -9,4 +9,11 @@ def fib(n)
   return fib(n - 2) + fib(n - 1)
 end
 
-puts fib(n)
+require 'benchmark'
+result = Benchmark.realtime do
+
+  puts fib(n)
+
+end
+
+puts "#{result}s"
