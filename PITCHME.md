@@ -85,7 +85,6 @@ DP（動的計画法）
 
 ---
 
-@snap[north-west span-50]
 ```ruby
 n = gets.to_i
 
@@ -99,12 +98,9 @@ end
 puts fib(n)
 ```
 
-@size[0.5em](
 - 普通の再帰
 - n項のフィボナッチ数列を計算するときは、n未満のフィボナッチ数列をすべて計算。
   - しかもそれが再帰。。)
-
-@snapend
 
 @snap[north-east span-50]
 ![dp](assets/dp.png)
