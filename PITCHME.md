@@ -1,7 +1,7 @@
-@size[20px](DP（動的計画法）)
-@size[12px](の入り口の入り口)
+@size[x-large](DP（動的計画法）)
+@size[small](の入り口の入り口)
 <br>
-@size[12px](TLE から始まる恋もある)
+@size[small](TLE から始まる恋もある)
 
 ---
 
