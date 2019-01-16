@@ -87,7 +87,7 @@ Ruby でやってみた
 
 ### 比較
 
-![Logo](assets/aaa.jpg)
+![Logo](assets/aaa.png)
 
 - 実際値と計算量
 
