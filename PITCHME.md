@@ -87,13 +87,13 @@ Ruby でやってみた
 
 @snap[west]
 
----?code=assets/fib_rec.rb&lang=ruby
+![rec](assets/rec.png)
 
 @snapend
 
 @snap[east]
 
-あああ
+![dp](assets/dp.png)
 
 @snapend
 
@@ -101,7 +101,7 @@ Ruby でやってみた
 
 ### 比較
 
-![Logo](assets/aaa.png)
+![cp](assets/aaa.png)
 
 - 再起は@css[text-blue](指数的)に処理時間が増加
 - DP は@css[text-blue](線形的)に処理時間が増加
