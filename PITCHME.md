@@ -123,5 +123,3 @@ Ruby でやってみた
 - https://atcoder.jp/contests/dp
 - https://atcoder.jp/contests/atc001
 - https://atcoder.jp/contests/atc002
-
----
