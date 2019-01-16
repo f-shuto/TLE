@@ -85,11 +85,55 @@ Ruby でやってみた
 
 ---
 
+@snap[west]
+
+# DP バージョン
+
+n = gets.to_i
+
+# 途中結果を格納するための配列を用意
+
+fib = Array.new(n)
+fib[0] = 0
+fib[1] = 1
+
+# 2 以上の場合
+
+for i in 2..n do
+fib[i] = fib[i - 2] + fib[i - 1]
+end
+
+puts fib[n]
+
+@snapend
+
+@snap[east]
+
+# 再帰バージョン
+
+n = gets.to_i
+
+def fib(n)
+return 0 if n == 0
+return 1 if n == 1
+
+# 2 以上の場合
+
+return fib(n - 2) + fib(n - 1)
+end
+
+puts fib(n)
+
+@snapend
+
+---
+
 ### 比較
 
 ![Logo](assets/aaa.png)
 
-- 実際値と計算量
+- DP は線形的に処理時間が増加
+- 再起は指数的に処理時間が増加
 
 ---
 
