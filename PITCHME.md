@@ -132,5 +132,4 @@ DP（動的計画法）
 ### おまけ 2：問題解きたい人
 
 - https://atcoder.jp/contests/dp
-- https://atcoder.jp/contests/atc001
-- https://atcoder.jp/contests/atc002
+- https://atcoder.jp/contests/tdpc
