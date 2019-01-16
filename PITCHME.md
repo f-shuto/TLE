@@ -1,9 +1,5 @@
-@snap[west text-20 text-bold]
-DP（動的計画法）
-@snapend
-@snap[west text-12]
-の入り口の入り口
-@snapend
+@size[20](DP（動的計画法）)
+@size[12](の入り口の入り口)
 <br>
 TLE から始まる恋もある
 
