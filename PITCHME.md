@@ -87,11 +87,15 @@ DP（動的計画法）
 
 @snap[west span-50]
 
+再帰
+
 ![rec](assets/rec.png)
 
 @snapend
 
 @snap[east span-50]
+
+DP
 
 ![dp](assets/dp.png)
 
