@@ -85,7 +85,7 @@ DP（動的計画法）
 
 ---
 
-@snap[west span-50]
+@snap[north-west span-45]
 
 再帰
 
@@ -95,7 +95,7 @@ DP（動的計画法）
 
 @snapend
 
-@snap[east span-50]
+@snap[north-east span-45]
 
 DP
 
