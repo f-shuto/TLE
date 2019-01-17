@@ -85,34 +85,31 @@ DP（動的計画法）
 
 ---
 
-```ruby
-n = gets.to_i
+@snap[north-west span-50]
 
-def fib(n)
-  return 0 if n == 0
-  return 1 if n == 1
-  # 2以上の場合
-  return fib(n - 2) + fib(n - 1)
-end
+![rec](assets/rec.png)
 
-puts fib(n)
-```
+@snapend
+
+@snap[north-east span-50]
+
+![dp](assets/dp.png)
+
+@snapend
+
+---
+
+### 再帰
 
 - 普通の再帰
 - n項のフィボナッチ数列を計算するときは、n未満のフィボナッチ数列をすべて計算。
-  - しかもそれが再帰。。)
+  - しかもそれが再帰。。
 
-@snap[north-east span-50]
-![dp](assets/dp.png)
-@snapend
+### DP
 
-
-
-@snap[south-east text-10 span-50]
 - n項までのフィボナッチ数列を格納するための配列を用意
 - 1からnまで順番にフィボナッチ数列を計算する。
   - 一度計算した値は使い回される
-@snapend
 
 ---
 
